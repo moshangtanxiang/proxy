@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/ -->
+<html class="js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://www.sundabao.com/xmlrpc.php">
+
+  <script src="./ubuntu使用shadowsocks_files/hm.js"></script><script type="text/javascript">window._ty_rum||function(t){function e(t){switch(typeof t){case"object":if(!t)return"null";if(t instanceof Array){for(var r="[",n=0;n<t.length;n++)r+=(n>0?",":"")+e(t[n]);return r+"]"}var r="{",n=0;for(var a in t)if("function"!=typeof t[a]){var i=e(t[a]);r+=(n>0?",":"")+e(a)+":"+i,n++}return r+"}";case"string":return'"'+t.replace(/([\"\\])/g,"\\$1").replace(/\n/g,"\\n")+'"';case"number":return t.toString();case"boolean":return t?"true":"false";case"function":return e(t.toString());case"undefined":default:return'"undefined"'}}function r(t){return B?B(t):t}function n(){return Date.now?Date.now():(new Date).valueOf()}function a(t,e,r){function n(){var t=H.args.apply(this,arguments);return e(i,t,r)}var a,i=t[t.length-1];if("function"==typeof i){switch(i.length){case 0:a=function(){return n.apply(this,arguments)};break;case 1:a=function(t){return n.apply(this,arguments)};break;case 2:a=function(t,e){return n.apply(this,arguments)};break;case 3:a=function(t,e,r){return n.apply(this,arguments)};break;case 4:a=function(t,e,r,a){return n.apply(this,arguments)};break;case 5:a=function(t,e,r,a,i){return n.apply(this,arguments)};break;default:for(var o=[],s=0,u=i.length;u>s;s++)o.push("_"+s);a=eval("(function(){return function("+o.join(",")+"){var args = [].slice.call(arguments, 0);return e(i, args, r);};})();")}t[t.length-1]=a}return t}function i(t,e){return t&&e&&(t.moduleName=e),t}function o(t,e,r){return function(){try{k=e,r&&s(e),t.apply(this,arguments),r&&u()}catch(n){throw r&&u(),i(n,e)}}}function s(e){H.each(["setTimeout","setInterval"],function(r){H.wrap(!0,t,r,function(t){return function(){var r,n=H.args.apply(this,arguments),a=n[0];return"function"==typeof a&&(r=o(a,e,!0)),r&&(n[0]=r),t.apply(this,n)}})})}function u(){H.each(["setTimeout","setInterval"],function(e){H.unwrap(t,e)})}function c(t){P&&H.wrap(!1,P.prototype,"addEventListener",function(e){return function(){var r,n=H.args.apply(this,arguments),a=n[1];return"function"==typeof a&&(r=o(a,t,!0)),r&&(n[1]=r),e.apply(this,n)}}),s(t)}function f(){P&&H.unwrap(P.prototype,"addEventListener"),u()}function p(t){return function(t,e){}}function l(){if(this.errors.length){var t=function(t){var e=[],r={};H.each(t,function(t){var e=_(t[1],t[2],t[3],t[6]);r[e]?r[e][4]+=1:r[e]=[t[1],t[2],t[3],"#"==t[4]?R.URL:t[4],1,t[5],t[6],t[7]]});for(var n in r)e.push(r[n]);return e}(this.errors),e=this;H.POST(H.mkurl(A.server.beacon,"err",{fu:C?C:C++,os:parseInt((n()-(N||A.st))/1e3)}),H.stringify({datas:t}),{},function(t,r){t||(e.errors=[])})}}function d(){F.initend()}function h(){"complete"===R.readyState&&F.initend()}function m(t){function e(){F.send()}return A.load_time?!0:(F.initend(),A.load_time=n(),void(9===t?e():setTimeout(e,0)))}function y(){j||m(9),H.bind(l,F)(),j=1}function v(){F.touch||(F.touch=n())}function g(t){if(t[6]){var e=t[4],r=t[5];if(r&&"string"==typeof r&&e){r=r.split(/\n/);var n=O.exec(r[0]);n||(n=O.exec(r[1])),n&&n[1]!=e&&(t[4]=n[1]||e,t[2]=n[2]||t[2],t[3]=n[3]||t[3])}}}function _(t,e,r,n){return t+e+r+(n?n:"")}function w(t){var e=arguments,r="unknown",a=[n()];if(0!=e.length){if("string"==typeof t){var i=e.length<4?e.length:4;a[1]=e[0],i>2&&(a[2]=e[2],a[3]=0,a[4]=e[1]),i>3&&e[3]&&(a[3]=e[3])}else if(t instanceof Event){if(a[1]=t.message||(t.error&&t.error.constructor.name)+(t.error&&t.error.message)||"",a[2]=t.lineno?t.lineno:0,a[3]=t.colno?t.colno:0,a[4]=t.filename||t.error&&t.error.fileName||t.target&&t.target.baseURI||"",a[4]==R.URL&&(a[4]="#"),t.error){a[5]=t.error.stack,a[6]=t.error.moduleName;var o=_(a[1],a[2],a[3],a[6]);a[7]=$[o]?0:1,$[o]=!0}else a[5]=null,a[6]=null,a[7]=0;if(a[1]===r&&a[4]===r)return;g(a)}F.errors.push(a)}}function S(t,e,r){for(var n="o."+e+"(",a=0;a<r.length;a++)n+=(a>0?",":"")+"a["+a+"]";return n+=");",new Function(n)()}function T(t){return function(){var e=arguments;if(!this._ty_wrap){var r=H.args.apply(this,e);this._ty_rum={method:r[0],url:r[1],start:n()}}try{return t.apply(this,e)}catch(a){return this.open=t,S(this,"open",e)}}}function b(e){return"string"==typeof e?e.length:t.ArrayBuffer&&e instanceof ArrayBuffer?e.byteLength:t.Blob&&e instanceof Blob?e.size:e&&e.length?e.length:0}function E(e){return function(){function r(t){var e,r,a=l._ty_rum;if(a){if(4!==a.readyState&&(a.end=n()),a.s=l.status,""==l.responseType||"text"==l.responseType)a.res=b(l.responseText);else if(l.response)a.res=b(l.response);else try{a.res=b(l.responseText)}catch(i){a.res=0}if(a.readyState=l.readyState,a.cb_time=d,e=[a.method+" "+a.url,a.s>0?a.end-a.start:0,d,a.s,a.s>0?0:t,a.res,a.req],a.r&&(r=o(l),r&&(r=r.xData)&&(e.push(r.id),e.push(r.action),e.push(r.time&&r.time.duration),e.push(r.time&&r.time.qu))),A.aa.push(e),A.server.custom_urls&&A.server.custom_urls.length&&!F.ct){if(!A.pattern){A.pattern=[];for(var s=0;s<A.server.custom_urls.length;s++)A.pattern.push(new RegExp(A.server.custom_urls[s]))}for(var s=0;s<A.pattern.length;s++)if(a.url.match(A.pattern[s])){F.ct=a.end+d;break}}F.sa(),l._ty_rum=null}}function a(){4==l.readyState&&r(0)}function o(e){var r;if(e.getResponseHeader){var n=H.parseJSON(e.getResponseHeader("X-Tingyun-Tx-Data"));n&&n.r&&e._ty_rum&&n.r+""==e._ty_rum.r+""&&(r={name:e._ty_rum.url,xData:n},X&&t._ty_rum.c_ra.push(r))}return r}function c(t){return function(){var e,r;4==l.readyState&&l._ty_rum&&(l._ty_rum.end=e=n(),l._ty_rum.readyState=4);try{k&&s(k),r=t.apply(this,arguments),k&&u()}catch(o){throw o=i(o,k),k&&u(),k=null,o}return 4==l.readyState&&(d=n()-e),a(),r}}function f(t){return function(){var e=l._ty_rum;return e?"progress"==t?!0:("abort"==t?r(905):"loadstart"==t?e.start=n():"error"==t?r(990):"timeout"==t&&r(903),!0):!0}}function p(t,e){e instanceof Array||(e=[e]);for(var r=0;r<e.length;r++){var n=e[r];H.sh(t,n,f(n),!1)}}if(!this._ty_wrap){this._ty_rum.start=n(),this._ty_rum.req=arguments[0]?b(arguments[0]):0;var l=this,d=0,h=H.wrap(!1,this,"onreadystatechange",c);h||H.sh(this,"readystatechange",a,!1),p(this,["error","progress","abort","load","loadstart","loadend","timeout"]),h||setTimeout(function(){H.wrap(!1,l,"onreadystatechange",c)},0)}var m=function(){function t(t){var e={},r=/^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?/.exec(t);return r&&(e.protocol=r[1]?r[1]+":":"http:",e.hostname=r[3],e.port=r[4]||""),e}return function(e){var r=location;if(e=H.trim(e)){if(e=e.toLowerCase(),e.startsWith("//")&&(e=r.protocol+e),!e.startsWith("http"))return!0;var n=t(e),a=n.protocol===r.protocol&&n.hostname===r.hostname;return a&&(a=n.port===r.port?!0:!r.port&&("http:"===r.protocol&&"80"===n.port||"https:"===r.protocol&&"443"===n.port)),a}return!1}}(),y=arguments;try{try{var v=A.server;v&&v.id&&this._ty_rum&&m(this._ty_rum.url)&&(this._ty_rum.r=(new Date).getTime()%1e8,this.setRequestHeader&&this.setRequestHeader("X-Tingyun-Id",v.id+";r="+this._ty_rum.r))}catch(g){}return e.apply(this,y)}catch(g){return this.send=e,S(this,"send",y)}}}var k,x=t.XMLHttpRequest,R=document,L=Object.defineProperty,q=t.define,P=t.EventTarget,C=0,O=new RegExp("([a-z]+:/{2,3}.*):(\\d+):(\\d+)"),B=t.encodeURIComponent,N=null,A=t._ty_rum={st:n(),ra:[],c_ra:[],aa:[],snd_du:function(){return this.server.adu?1e3*this.server.adu:1e4},cc:function(){return this.server.ac?this.server.ac:10}};var ty_rum=A;ty_rum.server = {id:'',beacon:'beacon.tingyun.com',beacon_err:'beacon-err.tingyun.com',key:'a9rTt_UBDQ8',trace_threshold:7000,custom_urls:[],sr:1.0};if(A.server&&!(A.server.sr&&Math.random()>=A.server.sr)){var D=String.prototype.trim;String.prototype.startsWith||(String.prototype.startsWith=function(t,e){return e=e||0,this.indexOf(t,e)===e});var I=/^http/i,M=function(){function t(){return(65536*(1+Math.random())|0).toString(16).substring(1)}return t()+"-"+t()+t()}(),H={wrap:function(t,e,r,n,a){try{var i=e[r]}catch(o){if(!t)return!1}if(!i&&!t)return!1;if(i&&i._ty_wrap)return!1;try{e[r]=n(i,a)}catch(o){return!1}return e[r]._ty_wrap=[i],!0},unwrap:function(t,e){try{var r=t[e]._ty_wrap;r&&(t[e]=r[0])}catch(n){}},each:function(t,e){if(t){var r;for(r=0;r<t.length&&(!t[r]||!e(t[r],r,t));r+=1);}},mkurl:function(t,e){var a=arguments,i=/^https/i.test(R.URL)?"https":"http";if(i=i+"://"+t+"/"+e+"?av=1.0.0&v=1.3.2&key="+r(A.server.key)+"&ref="+r(R.URL)+"&rand="+n()+"&pvid="+M,"pf"!==e&&A&&A.agent&&A.agent.n&&(i+="&n="+r(A.agent.n)),a.length>2){var o=a[2];for(var s in o)i+="&"+s+"="+o[s]}return i},GET:function(t,e){function r(){e&&e.apply(this,arguments),n.parentNode&&n.parentNode.removeChild(n)}if(navigator&&navigator.sendBeacon&&I.test(t))return navigator.sendBeacon(t,null);var n=R.createElement("img");return n.setAttribute("src",t),n.setAttribute("style","display:none"),this.sh(n,"readystatechange",function(){("loaded"==n.readyState||4==n.readyState)&&r("loaded")},!1),this.sh(n,"load",function(){return r("load"),!0},!1),this.sh(n,"error",function(){return r("error"),!0},!1),R.body.appendChild(n)},fpt:function(t,e,r){function n(t,e,r){var n=R.createElement(t);try{for(var a in e)n[a]=e[a]}catch(i){var o="<"+t;for(var a in e)o+=" "+a+'="'+e[a]+'"';o+=">",r||(o+="</"+t+">"),n=R.createElement(o)}return n}var a=n("div",{style:"display:none"},!1),i=n("iframe",{name:"_ty_rum_frm",width:0,height:0,style:"display:none"},!1),o=n("form",{style:"display:none",action:t,enctype:"application/x-www-form-urlencoded",method:"post",target:"_ty_rum_frm"},!1),s=n("input",{name:"data",type:"hidden"},!0);return s.value=e,o.appendChild(s),a.appendChild(i),a.appendChild(o),R.body.appendChild(a),o.submit(),i.onreadystatechange=function(){("complete"===i.readyState||4===i.readyState)&&(r(null,i.innerHTML),R.body.removeChild(a))},!0},POST:function(e,r,n,a){if(this.ie)return this.fpt(e,r,a);if(navigator&&navigator.sendBeacon&&I.test(e)){var i=navigator.sendBeacon(e,r);return a(!i),i}var o;if(t.XDomainRequest)return o=new XDomainRequest,o.open("POST",e),o.onload=function(){a(null,o.responseText)},this.sh(o,"load",function(){a(null,o.responseText)},!1),this.sh(o,"error",function(){a("POST("+e+")error")},!1),this.wrap(!0,o,"onerror",function(t){return function(){return a&&a("post error",o.responseText),!0}}),o.send(r),!0;if(!x)return!1;o=new x,o.overrideMimeType&&o.overrideMimeType("text/html");try{o._ty_wrap=1}catch(s){}var u=0;o.onreadystatechange=function(){4==o.readyState&&200==o.status&&(0==u&&a(null,o.responseText),u++)},o.onerror&&this.wrap(!0,o,"onerror",function(t){return function(){return a("post error",o.responseText),"function"==typeof t?t.apply(this,arguments):!0}});try{o.open("POST",e,!0)}catch(s){return this.fpt(e,r,a)}for(var c in n)o.setRequestHeader(c,n[c]);return o.send(r),!0},sh:function(t,e,r,n){return t.addEventListener?t.addEventListener(e,r,n):t.attachEvent?t.attachEvent("on"+e,r):!1},args:function(){for(var t=[],e=0;e<arguments.length;e++)t.push(arguments[e]);return t},stringify:e,parseJSON:function(e){if(e&&"string"==typeof e){var r=t.JSON?t.JSON.parse:function(t){return new Function("return "+t)()};return r(e)}return null},trim:D?function(t){return null==t?"":D.call(t)}:function(t){return null==t?"":t.toString().replace(/^\s+/,"").replace(/\s+$/,"")},extend:function(t,e){if(t&&e)for(var r in e)e.hasOwnProperty(r)&&(t[r]=e[r]);return t},bind:function(t,e){return function(){t.apply(e,arguments)}}};try{L&&L(t,"define",{get:function(){return q},set:function(t){"function"==typeof t&&(t.amd||t.cmd)?(q=function(){var e=H.args.apply(this,arguments);if(3!==e.length)return t.apply(this,e);var r="string"==typeof e[0]?e[0]:"anonymous";return t.apply(this,a(e,function(t,e,r){var n;try{k=r,c(r),n=t.apply(this,e),f()}catch(a){throw f(),i(a,r)}return n},r))},H.extend(q,t)):q=t},configurable:!0})}catch(U){}var X=t.performance?t.performance:t.Performance;X&&(H.sh(X,"resourcetimingbufferfull",function(){var t=X.getEntriesByType("resource");t&&(A.ra=A.ra.concat(t),X.clearResourceTimings())},!1),H.sh(X,"webkitresourcetimingbufferfull",function(){var t=X.getEntriesByType("resource");t&&(A.ra=A.ra.concat(t),X.webkitClearResourceTimings())},!1));for(var F=A.metric={ready:function(){return A.load_time},initend:function(){function t(){F.sa()}A.end_time||(A.end_time=n(),this._h=setInterval(t,2e3))},send:function(){function e(){function e(t){return a[t]>0?a[t]-o:0}var n={};if(X&&X.timing){var a=X.timing;o=a.navigationStart;var i=e("domainLookupStart"),s=e("domainLookupEnd"),u=e("redirectStart"),c=e("redirectEnd"),f=e("connectStart"),p=e("connectEnd");n={f:e("fetchStart"),qs:e("requestStart"),rs:e("responseStart"),re:e("responseEnd"),os:e("domContentLoadedEventStart"),oe:e("domContentLoadedEventEnd"),oi:e("domInteractive"),oc:e("domComplete"),ls:e("loadEventStart"),le:e("loadEventEnd")},p-f>0&&(n.cs=f,n.ce=p),s-i>0&&(n.ds=i,n.de=s),(c-u>0||c>0)&&(n.es=u,n.ee=c),0==n.le&&(n.ue=A.load_time-o);var l;if(a.msFirstPaint)l=a.msFirstPaint;else if(t.chrome&&chrome.loadTimes){var d=chrome.loadTimes();d&&d.firstPaintTime&&(l=1e3*d.firstPaintTime)}else A.firstPaint&&(l=A.firstPaint);l&&(n.fp=Math.round(l-o)),a.secureConnectionStart&&(n.sl=e("secureConnectionStart"))}else n={t:o,os:A.end_time-o,ls:A.load_time-o};n.je=F.errors.length,F.ct&&(n.ct=F.ct-o),F.touch&&(n.fi=F.touch-o);var h=A.agent;return h&&(n.id=r(h.id),n.a=h.a,n.q=h.q,n.tid=r(h.tid),n.n=r(h.n)),n.sh=t.screen&&t.screen.height,n.sw=t.screen&&t.screen.width,n}function a(e){var r=t._ty_rum.c_ra;if(e)for(var n=r.length-1;n>=0;n--)if(e.indexOf(r[n].name)>-1)return r[n].xData;return null}function i(t){function e(t){return f[t]>0?f[t]:0}if(t<A.server.trace_threshold)return null;var n=X;if(n&&n.getEntriesByType){var i={tr:!0,tt:r(R.title),charset:R.characterSet},s=A.ra,u=n.getEntriesByType("resource");u&&(s=s.concat(u),n.webkitClearResourceTimings&&n.webkitClearResourceTimings(),n.clearResourceTimings&&n.clearResourceTimings()),i.res=[];for(var c=0;c<s.length;c++){var f=s[c],p={o:e("startTime"),rt:f.initiatorType,n:f.name,f:e("fetchStart"),ds:e("domainLookupStart"),de:e("domainLookupEnd"),cs:e("connectStart"),ce:e("connectEnd"),sl:e("secureConnectionStart"),qs:e("requestStart"),rs:e("responseStart"),re:e("responseEnd")},l=a(f.name);l&&(p.aid=l.id,p.atd=l.trId,p.an=l.action,p.aq=l.time&&l.time.qu,p.as=l.time&&l.time.duration),i.res.push(p)}if(F.errors.length){i.err=[];for(var c=0,d=F.errors,h=d.length;h>c;c++)i.err.push({o:Math.round(d[c][0]-o),e:d[c][1],l:d[c][2],c:d[c][3],r:d[c][4],ec:h,s:d[c][5],m:d[c][6],ep:d[c][7]})}return i}return null}if(this.sended)return!1;if(!this.ready())return!1;var o=A.st,s={};try{pf=e(),s=i(pf.ls>0?pf.ls:A.load_time-o)}catch(u){}s=s?H.stringify(s):"";var c=H.mkurl(A.server.beacon,"pf",pf);N=n(),0!=s.length&&H.POST(c,s,{},p("POST"))||H.GET(c);var f=H.bind(l,this);return f(),setInterval(f,1e4),this.sended=!0,this.sa(1),!0},sa:function(t){(this.ready()||t)&&(t||(t=!this._last_send||n()-this._last_send>A.snd_du()||A.aa.length>=A.cc()),A.aa.length>0&&t&&(this._last_send=n(),H.POST(H.mkurl(A.server.beacon,"xhr"),H.stringify({xhr:A.aa}),{},p("POST")),A.aa=[]))},errors:[]},j=null,$={},z=[["load",m],["beforeunload",y],["pagehide",y],["unload",y]],J=0;J<z.length;J++)H.sh(t,z[J][0],z[J][1],!1);t.addEventListener?H.sh(t,"error",w,!1):t.onerror=function(t,e,r,n,a){var i=[t,r,n,e==R.URL?"#":e];if(a){var o=_(t,r,n,a.moduleName);i=i.concat([1,a.stack,a.moduleName,$[o]?0:1]),$[o]=!0}g(i),F.errors.push(i)};for(var W=[["scroll",v],["keypress",v],["click",v],["DOMContentLoaded",d],["readystatechange",h]],J=0;J<W.length;J++)H.sh(R,W[J][0],W[J][1],!1);if(H.wrap(!1,t,"requestAnimationFrame",function(e){return function(){return A.firstPaint=n(),t.requestAnimationFrame=e,e.apply(this,arguments)}}),x)if(x.prototype)H.wrap(!1,x.prototype,"open",T),H.wrap(!1,x.prototype,"send",E);else{H.ie=7;var G=x;t.XMLHttpRequest=function(){var t=new G;return H.wrap(!1,t,"open",T),H.wrap(!1,t,"send",E),t}}else t.ActiveXObject&&(H.ie=6);}}(window);</script><title>ubuntu使用shadowsocks | 大宝日记</title>
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<link rel="author" href="https://plus.google.com/113617276627512476366">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="ubuntu使用shadowsocks">
+	<meta property="og:url" content="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/">
+	<meta property="og:image" content="https://www.sundabao.com/wp-content/uploads/2016/10/QQ20161016-0@2x.png">
+	<meta property="article:published_time" content="2016-10-16">
+	<meta property="article:modified_time" content="2016-11-07">
+	<meta property="article:author" content="https://www.sundabao.com/author/smallearth/">
+	<meta property="article:section" content="随笔">
+	<meta property="og:site_name" content="大宝日记">
+	<meta name="twitter:card" content="summary">
+<!-- /SEO Ultimate -->
+
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="大宝日记 » Feed" href="https://www.sundabao.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="大宝日记 » Comments Feed" href="https://www.sundabao.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="大宝日记 » ubuntu使用shadowsocks Comments Feed" href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.sundabao.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./ubuntu使用shadowsocks_files/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="./ubuntu使用shadowsocks_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hueman-main-style-css" href="./ubuntu使用shadowsocks_files/main.min.css" type="text/css" media="all">
+<style id="hueman-main-style-inline-css" type="text/css">
+body { font-size:1.00rem; }@media only screen and (min-width: 720px) {
+        .nav > li { font-size:1.00rem; }
+      }.container-inner { max-width: 1200px; }.sidebar .widget { padding-left: 20px; padding-right: 20px; padding-top: 20px; }::selection { background-color: #3b8dbd; }
+::-moz-selection { background-color: #3b8dbd; }a,.themeform label .required,#flexslider-featured .flex-direction-nav .flex-next:hover,#flexslider-featured .flex-direction-nav .flex-prev:hover,.post-hover:hover .post-title a,.post-title a:hover,.sidebar.s1 .post-nav li a:hover i,.content .post-nav li a:hover i,.post-related a:hover,.sidebar.s1 .widget_rss ul li a,#footer .widget_rss ul li a,.sidebar.s1 .widget_calendar a,#footer .widget_calendar a,.sidebar.s1 .alx-tab .tab-item-category a,.sidebar.s1 .alx-posts .post-item-category a,.sidebar.s1 .alx-tab li:hover .tab-item-title a,.sidebar.s1 .alx-tab li:hover .tab-item-comment a,.sidebar.s1 .alx-posts li:hover .post-item-title a,#footer .alx-tab .tab-item-category a,#footer .alx-posts .post-item-category a,#footer .alx-tab li:hover .tab-item-title a,#footer .alx-tab li:hover .tab-item-comment a,#footer .alx-posts li:hover .post-item-title a,.comment-tabs li.active a,.comment-awaiting-moderation,.child-menu a:hover,.child-menu .current_page_item > a,.wp-pagenavi a{ color: #3b8dbd; }.themeform input[type="submit"],.themeform button[type="submit"],.sidebar.s1 .sidebar-top,.sidebar.s1 .sidebar-toggle,#flexslider-featured .flex-control-nav li a.flex-active,.post-tags a:hover,.sidebar.s1 .widget_calendar caption,#footer .widget_calendar caption,.author-bio .bio-avatar:after,.commentlist li.bypostauthor > .comment-body:after,.commentlist li.comment-author-admin > .comment-body:after{ background-color: #3b8dbd; }.post-format .format-container { border-color: #3b8dbd; }.sidebar.s1 .alx-tabs-nav li.active a,#footer .alx-tabs-nav li.active a,.comment-tabs li.active a,.wp-pagenavi a:hover,.wp-pagenavi a:active,.wp-pagenavi span.current{ border-bottom-color: #3b8dbd!important; }.sidebar.s2 .post-nav li a:hover i,
+.sidebar.s2 .widget_rss ul li a,
+.sidebar.s2 .widget_calendar a,
+.sidebar.s2 .alx-tab .tab-item-category a,
+.sidebar.s2 .alx-posts .post-item-category a,
+.sidebar.s2 .alx-tab li:hover .tab-item-title a,
+.sidebar.s2 .alx-tab li:hover .tab-item-comment a,
+.sidebar.s2 .alx-posts li:hover .post-item-title a { color: #82b965; }
+.sidebar.s2 .sidebar-top,.sidebar.s2 .sidebar-toggle,.post-comments,.jp-play-bar,.jp-volume-bar-value,.sidebar.s2 .widget_calendar caption{ background-color: #82b965; }.sidebar.s2 .alx-tabs-nav li.active a { border-bottom-color: #82b965; }
+.post-comments span:before { border-right-color: #82b965; }
+      .search-expand,
+              #nav-topbar.nav-container { background-color: #26272b}@media only screen and (min-width: 720px) {
+                #nav-topbar .nav ul { background-color: #26272b; }
+              }.is-scrolled #header .nav-container.desktop-sticky,
+              .is-scrolled #header .search-expand { background-color: #26272b; background-color: rgba(38,39,43,0.90) }.is-scrolled .topbar-transparent #nav-topbar.desktop-sticky .nav ul { background-color: #26272b; background-color: rgba(38,39,43,0.95) }#header { background-color: #33363b; }
+@media only screen and (min-width: 720px) {
+  #nav-header .nav ul { background-color: #33363b; }
+}
+        #header #nav-mobile { background-color: #33363b; }.is-scrolled #header #nav-mobile { background-color: #33363b; background-color: rgba(51,54,59,0.90) }#nav-header.nav-container, #main-header-search .search-expand { background-color: ; }
+@media only screen and (min-width: 720px) {
+  #nav-header .nav ul { background-color: ; }
+}
+        body { background-color: #eaeaea; }
+</style>
+<link rel="stylesheet" id="hueman-font-awesome-css" href="./ubuntu使用shadowsocks_files/font-awesome.min.css" type="text/css" media="all">
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/jquery.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/jquery-migrate.min.js"></script>
+<link rel="https://api.w.org/" href="https://www.sundabao.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sundabao.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.sundabao.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="iphone5S/iphone6/ios系统使用shadowsocks-文字使用教程" href="https://www.sundabao.com/iphone5siphone6ios%e7%b3%bb%e7%bb%9f%e4%bd%bf%e7%94%a8shadowsocks-%e6%96%87%e5%ad%97%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b/">
+<link rel="next" title="（转）理想的互联网服务后台框架的九个要点" href="https://www.sundabao.com/%ef%bc%88%e8%bd%ac%ef%bc%89%e7%90%86%e6%83%b3%e7%9a%84%e4%ba%92%e8%81%94%e7%bd%91%e6%9c%8d%e5%8a%a1%e5%90%8e%e5%8f%b0%e6%a1%86%e6%9e%b6%e7%9a%84%e4%b9%9d%e4%b8%aa%e8%a6%81%e7%82%b9/">
+<meta name="generator" content="WordPress 5.0.1">
+<link rel="canonical" href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/">
+<link rel="shortlink" href="https://www.sundabao.com/?p=2650">
+<link rel="alternate" type="application/json+oembed" href="https://www.sundabao.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sundabao.com%2Fubuntu%25e4%25bd%25bf%25e7%2594%25a8shadowsocks%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.sundabao.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sundabao.com%2Fubuntu%25e4%25bd%25bf%25e7%2594%25a8shadowsocks%2F&amp;format=xml">
+<!--[if lt IE 9]>
+<script src="https://www.sundabao.com/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="https://www.sundabao.com/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="./ubuntu使用shadowsocks_files/shCore.css"><link rel="stylesheet" type="text/css" href="./ubuntu使用shadowsocks_files/shThemeRDark.css"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.sundabao.com/rsslatest.xml"><script type="text/javascript" src="./ubuntu使用shadowsocks_files/pre"></script><script type="text/javascript" src="./ubuntu使用shadowsocks_files/pre(1)"></script></head>
+
+<body class="post-template-default single single-post postid-2650 single-format-standard col-1c full-width mobile-sidebar-hide-s2 header-desktop-sticky header-mobile-sticky chrome hu-smoothscroll">
+
+<div id="wrapper">
+
+  
+  <header id="header" class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop  topbar-transparent no-header-img">
+        <nav class="nav-container group mobile-menu mobile-sticky " id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header">                  <p class="site-title"><a class="custom-logo-link" href="https://www.sundabao.com/" rel="home" title="大宝日记 | Home page">大宝日记</a></p>
+                </div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="https://www.sundabao.com/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value==&#39;&#39;)this.value=&#39;To search type and hit enter&#39;;" onfocus="if(this.value==&#39;To search type and hit enter&#39;)this.value=&#39;&#39;;" value="To search type and hit enter">
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-smallearth" class="nav container-inner group"><li id="menu-item-1682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1682"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/">语言&amp;开发</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-2789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2789"><a href="https://www.sundabao.com/category/nginx/">Nginx</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-2790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2790"><a href="https://www.sundabao.com/category/nginx/nginx%e4%bd%bf%e7%94%a8/">Nginx使用</a></li>
+		<li id="menu-item-2791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2791"><a href="https://www.sundabao.com/category/nginx/nginx%e5%86%85%e6%a0%b8/">Nginx内核</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2519" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2519"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/lua/">LUA</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-2520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2520"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/lua/lua%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0/">LUA学习笔记</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1695" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1695"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/php/">PHP</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-1696" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1696"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/php/web%e5%ae%89%e5%85%a8%e6%9c%ac%e7%ac%94%e8%ae%b0/">PHP-Web安全</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1694" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1694"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/go/">Go</a></li>
+	<li id="menu-item-1697" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1697"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/python%e7%ac%94%e8%ae%b0/">Python</a></li>
+	<li id="menu-item-1693" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1693"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/git%e7%ac%94%e8%ae%b0/">Git</a></li>
+	<li id="menu-item-1700" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1700"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/">Web开发</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-1701" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1701"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/web%e5%89%8d%e7%ab%af/">Html&amp;Web</a></li>
+		<li id="menu-item-1702" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1702"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/js/">js</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1699" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1699"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/sphinx/">Sphinx</a></li>
+	<li id="menu-item-1698" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1698"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%ae%89%e5%85%a8/">Sceurity</a></li>
+	<li id="menu-item-1690" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1690"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/">Debug</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-1691" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1691"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/nginx-%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/">Nginx</a></li>
+		<li id="menu-item-1692" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1692"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/thinkphp/">ThinkPHP</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1689"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/android%e5%bc%80%e5%8f%91/">Android</a></li>
+</ul>
+</li>
+<li id="menu-item-1679" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1679"><a href="https://www.sundabao.com/category/mysql/">Database</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-1685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1685"><a href="https://www.sundabao.com/category/mysql/mongodb/">MongoDB</a></li>
+	<li id="menu-item-1686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1686"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/">Mysql</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-2524" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2524"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/sql/">SQL</a></li>
+		<li id="menu-item-1687" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1687"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/%e9%ab%98%e6%80%a7%e8%83%bdmysql/">Mysql架构与历史</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1713" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1713"><a href="https://www.sundabao.com/category/mysql/memcache/">Memcache</a></li>
+	<li id="menu-item-1714" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1714"><a href="https://www.sundabao.com/category/mysql/redis/">Redis</a></li>
+</ul>
+</li>
+<li id="menu-item-1680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1680"><a href="https://www.sundabao.com/category/%e5%bc%80%e5%8f%91ide-%e6%8e%a8%e8%8d%90/">开发工具</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-1688" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1688"><a href="https://www.sundabao.com/category/%e5%bc%80%e5%8f%91ide-%e6%8e%a8%e8%8d%90/mac%e7%ac%94%e8%ae%b0/">MAC</a></li>
+</ul>
+</li>
+<li id="menu-item-1681" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1681"><a href="https://www.sundabao.com/category/%e7%ae%97%e6%b3%95/">算法</a></li>
+<li id="menu-item-1683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1683"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/">运维</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-1704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1704"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/">Linux</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-1735" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1735"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/%e6%af%8f%e5%a4%a9%e4%b8%80%e4%b8%aalinux%e5%91%bd%e4%bb%a4/">每天一个Linux命令</a></li>
+		<li id="menu-item-2521" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2521"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/%e6%af%8f%e5%a4%a9%e4%b8%80%e4%b8%aashell/">每天一个SHELL</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1703" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1703"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/seo%e7%ac%94%e8%ae%b0/">SEO</a></li>
+</ul>
+</li>
+<li id="menu-item-2285" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2285"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/">设计</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-2289" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2289"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/app%e7%95%8c%e9%9d%a2/">app界面</a></li>
+	<li id="menu-item-2290" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2290"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e4%b8%b4%e6%91%b9/">临摹</a></li>
+	<li id="menu-item-2291" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2291"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%9b%be%e6%a0%87/">图标</a></li>
+	<li id="menu-item-2292" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2292"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%a4%9a%e5%b9%b3%e5%8f%b0%e7%a7%bb%e6%a4%8d/">多平台移植</a></li>
+	<li id="menu-item-2293" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2293"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%b9%b3%e9%9d%a2/">平面</a></li>
+	<li id="menu-item-2294" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2294"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%b9%bf%e5%91%8a%e9%a1%b5/">广告页</a></li>
+	<li id="menu-item-2295" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2295"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%bc%95%e5%af%bc%e9%a1%b5/">引导页</a></li>
+	<li id="menu-item-2296" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2296"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e6%89%8b%e7%bb%98/">手绘</a></li>
+	<li id="menu-item-2297" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2297"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e7%ab%9e%e5%93%81%e5%88%86%e6%9e%90/">竞品分析</a></li>
+	<li id="menu-item-2298" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2298"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e7%bd%91%e9%a1%b5/">网页</a></li>
+	<li id="menu-item-2299" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2299"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e8%a7%84%e8%8c%83/">规范</a></li>
+</ul>
+</li>
+<li id="menu-item-1684" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1684"><a href="https://www.sundabao.com/category/%e4%b8%83%e4%b8%83%e5%85%ab%e5%85%ab/">随笔</a></li>
+<li id="menu-item-1312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312"><a href="https://www.sundabao.com/%e5%8f%8b%e6%83%85%e9%93%be%e6%8e%a5/">友情链接</a></li>
+<li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://www.sundabao.com/%e5%85%b3%e4%ba%8e%e6%88%91%e4%bb%ac/">About Me</a></li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+  
+  <div class="container group">
+        <div class="container-inner">
+
+                    <div class="group pad central-header-zone">
+                  <div class="logo-tagline-group">
+                                        <p class="site-title"><a class="custom-logo-link" href="https://www.sundabao.com/" rel="home" title="大宝日记 | Home page">大宝日记</a></p>
+                                                                <p class="site-description">--我是一个有上进心的程序猿，但是我想种一个果园。</p>
+                                        </div>
+
+                                </div>
+      
+                <nav class="nav-container group desktop-menu " id="nav-header" data-menu-id="header-2">
+    <div class="nav-text"><!-- put your mobile menu text here --></div>
+
+  <div class="nav-wrap container">
+        <ul id="menu-smallearth-1" class="nav container-inner group"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1682"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/">语言&amp;开发</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2789"><a href="https://www.sundabao.com/category/nginx/">Nginx</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2790"><a href="https://www.sundabao.com/category/nginx/nginx%e4%bd%bf%e7%94%a8/">Nginx使用</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2791"><a href="https://www.sundabao.com/category/nginx/nginx%e5%86%85%e6%a0%b8/">Nginx内核</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2519"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/lua/">LUA</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2520"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/lua/lua%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0/">LUA学习笔记</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1695"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/php/">PHP</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1696"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/php/web%e5%ae%89%e5%85%a8%e6%9c%ac%e7%ac%94%e8%ae%b0/">PHP-Web安全</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1694"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/go/">Go</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1697"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/python%e7%ac%94%e8%ae%b0/">Python</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1693"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/git%e7%ac%94%e8%ae%b0/">Git</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1700"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/">Web开发</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1701"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/web%e5%89%8d%e7%ab%af/">Html&amp;Web</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1702"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/js/">js</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1699"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/sphinx/">Sphinx</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1698"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%ae%89%e5%85%a8/">Sceurity</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1690"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/">Debug</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1691"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/nginx-%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/">Nginx</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1692"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98/thinkphp/">ThinkPHP</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1689"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/android%e5%bc%80%e5%8f%91/">Android</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1679"><a href="https://www.sundabao.com/category/mysql/">Database</a>
+<ul class="sub-menu" style="height: 3.81769px; padding-top: 0.177213px; margin-top: 0px; padding-bottom: 0.177213px; margin-bottom: 0px; display: none;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1685"><a href="https://www.sundabao.com/category/mysql/mongodb/">MongoDB</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1686"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/">Mysql</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2524"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/sql/">SQL</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1687"><a href="https://www.sundabao.com/category/mysql/mysql-mysql/%e9%ab%98%e6%80%a7%e8%83%bdmysql/">Mysql架构与历史</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1713"><a href="https://www.sundabao.com/category/mysql/memcache/">Memcache</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1714"><a href="https://www.sundabao.com/category/mysql/redis/">Redis</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1680"><a href="https://www.sundabao.com/category/%e5%bc%80%e5%8f%91ide-%e6%8e%a8%e8%8d%90/">开发工具</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1688"><a href="https://www.sundabao.com/category/%e5%bc%80%e5%8f%91ide-%e6%8e%a8%e8%8d%90/mac%e7%ac%94%e8%ae%b0/">MAC</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1681"><a href="https://www.sundabao.com/category/%e7%ae%97%e6%b3%95/">算法</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1683"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/">运维</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1704"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/">Linux</a>
+	<ul class="sub-menu" style="display: none;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1735"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/%e6%af%8f%e5%a4%a9%e4%b8%80%e4%b8%aalinux%e5%91%bd%e4%bb%a4/">每天一个Linux命令</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2521"><a href="https://www.sundabao.com/category/%e8%bf%90%e7%bb%b4/linux/%e6%af%8f%e5%a4%a9%e4%b8%80%e4%b8%aashell/">每天一个SHELL</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1703"><a href="https://www.sundabao.com/category/%e8%af%ad%e8%a8%80%e5%bc%80%e5%8f%91/web/seo%e7%ac%94%e8%ae%b0/">SEO</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2285"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/">设计</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2289"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/app%e7%95%8c%e9%9d%a2/">app界面</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2290"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e4%b8%b4%e6%91%b9/">临摹</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2291"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%9b%be%e6%a0%87/">图标</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2292"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%a4%9a%e5%b9%b3%e5%8f%b0%e7%a7%bb%e6%a4%8d/">多平台移植</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2293"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%b9%b3%e9%9d%a2/">平面</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2294"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%b9%bf%e5%91%8a%e9%a1%b5/">广告页</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2295"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e5%bc%95%e5%af%bc%e9%a1%b5/">引导页</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2296"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e6%89%8b%e7%bb%98/">手绘</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2297"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e7%ab%9e%e5%93%81%e5%88%86%e6%9e%90/">竞品分析</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2298"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e7%bd%91%e9%a1%b5/">网页</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2299"><a href="https://www.sundabao.com/category/%e8%ae%be%e8%ae%a1/%e8%a7%84%e8%8c%83/">规范</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1684"><a href="https://www.sundabao.com/category/%e4%b8%83%e4%b8%83%e5%85%ab%e5%85%ab/">随笔</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312"><a href="https://www.sundabao.com/%e5%8f%8b%e6%83%85%e9%93%be%e6%8e%a5/">友情链接</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://www.sundabao.com/%e5%85%b3%e4%ba%8e%e6%88%91%e4%bb%ac/">About Me</a></li>
+</ul>  </div>
+</nav><!--/#nav-header-->      
+    </div><!--/.container-inner-->
+      </div><!--/.container-->
+
+</header><!--/#header-->
+  
+  <div class="container" id="page">
+    <div class="container-inner">
+            <div class="main">
+        <div class="main-inner group">
+          
+              <section class="content">
+              <div class="page-title pad group">
+          	    		<ul class="meta-single group">
+    			<li class="category"><a href="https://www.sundabao.com/category/%e4%b8%83%e4%b8%83%e5%85%ab%e5%85%ab/" rel="category tag">随笔</a></li>
+    			    			<li class="comments"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comments"><i class="fa fa-comments-o"></i>7</a></li>
+    			    		</ul>
+
+    	
+    </div><!--/.page-title-->
+          <div class="pad group">
+              <article class="post-2650 post type-post status-publish format-standard has-post-thumbnail hentry category-1">
+    <div class="post-inner group">
+
+      <h1 class="post-title entry-title">ubuntu使用shadowsocks</h1>
+<p class="post-byline">by   <span class="vcard author">
+     <span class="fn"><a href="https://www.sundabao.com/author/smallearth/" title="Posts by JackSun" rel="author">JackSun</a></span>
+   </span> ·
+                            Published <time class="published" datetime="2016年10月16日">2016年10月16日</time>
+              · Updated <time class="updated" datetime="2016年11月7日">2016年11月7日</time>
+               </p>
+      
+      <div class="clear"></div>
+
+      <div class="entry themeform">
+        <div class="entry-inner">
+          <p>1.安装shadowsocks命令行程序，配置命令。<span id="more-2650"></span></p>
+<p>2.安装shadowsocks GUI图形界面程序，配置。</p>
+<p>个人推荐第一种，配置好后基本不用管。但使用的前提是 你的服务端已经搭建好或者你有别人提供的SS 服务（我也不知道该不该写这文章…）</p>
+<h2 id="title-1">第一种</h2>
+<h3 id="title-2">ubuntu安装shadowsocks</h3>
+<p>用PIP安装很简单，</p>
+<pre>sudo apt-get update
+sudo apt-get install python-pip
+sudo apt-get install python-setuptools m2crypto
+</pre>
+<p>接着安装shadowsocks</p>
+<pre>pip install shadowsocks</pre>
+<p>如果是ubuntu16.04 直接 (16.04 里可以直接用apt 而不用 apt-get 这是一项改进）</p>
+<pre>sudo apt install&nbsp;shadowsocks</pre>
+<p>当然你在安装时候肯定有提示需要安装一些依赖比如<code>python-setuptools m2crypto </code>，依照提示安装然后再安装就好。也可以网上搜索有很多教程的。</p>
+<h3 id="title-3">启动shadowsocks</h3>
+<p>安装好后，在本地我们要用到sslocal ，终端输入<code>sslocal --help</code> 可以查看帮助，像这样</p>
+<p><img class="aligncenter size-full wp-image-2651" src="./ubuntu使用shadowsocks_files/29F80488-81E6-4A71-8FA1-9722C084574A.jpg" alt="29f80488-81e6-4a71-8fa1-9722c084574a" width="1344" height="568" srcset="https://www.sundabao.com/wp-content/uploads/2016/10/29F80488-81E6-4A71-8FA1-9722C084574A.jpg 1344w, https://www.sundabao.com/wp-content/uploads/2016/10/29F80488-81E6-4A71-8FA1-9722C084574A-620x262.jpg 620w, https://www.sundabao.com/wp-content/uploads/2016/10/29F80488-81E6-4A71-8FA1-9722C084574A-768x325.jpg 768w, https://www.sundabao.com/wp-content/uploads/2016/10/29F80488-81E6-4A71-8FA1-9722C084574A-940x397.jpg 940w" sizes="(max-width: 1344px) 100vw, 1344px"></p>
+<p>通过帮助提示我们知道各个参数怎么配置，比如 sslocal -c 后面加上我们的json配置文件，或者像下面这样直接命令参数写上运行。</p>
+<p>比如</p>
+<pre>sslocal -s 11.22.33.44 -p 50003 -k "123456"&nbsp;-l 1080 -t 600 -m&nbsp;aes-256-cfb</pre>
+<p>-s表示服务IP, -p指的是服务端的端口，-l是本地端口默认是1080, -k 是密码（要加””）, -t超时默认300,-m是加密方法默认aes-256-cfb，</p>
+<p><strong>为了方便我推荐直接用sslcoal -c 配置文件路径 这样的方式，简单好用。</strong></p>
+<p>我们可以在/home/mudao/ 下新建个文件shadowsocks.json &nbsp;(mudao是我在我电脑上的用户名，这里路径你自己看你的)。内容是这样：</p>
+<pre>{
+    "server":"11.22.33.44",
+    "server_port":50003,
+    "local_port":1080,
+    "password":"123456",
+    "timeout":600,
+    "method":"aes-256-cfb"
+}
+
+server &nbsp;你服务端的IP
+servier_port &nbsp;你服务端的端口
+local_port &nbsp;本地端口，一般默认1080
+passwd &nbsp;ss服务端设置的密码
+timeout &nbsp;超时设置 和服务端一样
+method &nbsp;加密方法 和服务端一样
+</pre>
+<p>确定上面的配置文件没有问题，然后我们就可以在终端输入 sslocal -c /home/mudao/shadowsocks.json 回车运行。如果没有问题的话，下面会是这样…</p>
+<figure class="wp-caption aligncenter"><img class="aligncenter size-full wp-image-2652" src="./ubuntu使用shadowsocks_files/QQ20161016-0@2x.png" alt="qq20161016-02x" width="1174" height="212" srcset="https://www.sundabao.com/wp-content/uploads/2016/10/QQ20161016-0@2x.png 1174w, https://www.sundabao.com/wp-content/uploads/2016/10/QQ20161016-0@2x-620x112.png 620w, https://www.sundabao.com/wp-content/uploads/2016/10/QQ20161016-0@2x-768x139.png 768w, https://www.sundabao.com/wp-content/uploads/2016/10/QQ20161016-0@2x-940x170.png 940w" sizes="(max-width: 1174px) 100vw, 1174px"><figcaption class="wp-caption-text">（如果继续请不要关闭这个终端）</figcaption></figure>
+<p>如果你选择这一种请跳过第二种。你可以去系统的代理设置按照说明设置代理，但一般是全局的，然而我们访问baidu,taobao等着些网站如果用代理就有点绕了，而且还会浪费服务器流量。我们最好配置我们的浏览器让它可以自动切换，该用代理用代理该直接连接自动直接连接。所以请看配置浏览器。</p>
+<h2 id="title-4">第二种</h2>
+<p>安装GUI 图形界面程序，然后按照提示配置相对应的参数。安装教程地址：<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97" target="_blank">shadowsocks-qt5 安装指南</a></p>
+<p>在ubuntu上可以这样，通过PPA源安装，仅支持Ubuntu 14.04或更高版本。</p>
+<pre>sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt-get update
+sudo apt-get install shadowsocks-qt5
+</pre>
+<p>由于是图形界面，配置和windows基本没啥差别就不赘述了。经过上面的配置，你只是启动了sslocal 但是要上网你还需要配置下浏览器到指定到代理端口比如1080才可以正式上网。</p>
+<h2 id="title-5">配置浏览器</h2>
+<p>假如你上面任选一种方式已经开始运行sslocal了，火狐那个代理插件老是订阅不了gfwlist所以配置自动模式的话不好使。这里用的是chrome，你可以在Ubuntu软件中心下载得到。</p>
+<h3 id="title-6">安装插件</h3>
+<p>我们需要给chrome安装SwitchyOmega插件，但是没有代理之前是不能从谷歌商店安装这个插件的，但是我们可以从Github上直接下载最新版&nbsp;<a title="SwitchyOmega代理插件下载chrome" href="https://github.com/FelisCatus/SwitchyOmega/releases/" target="_blank">https://github.com/FelisCatus/SwitchyOmega/releases/</a>&nbsp;（这个是chrome的）然后浏览器地址打开chrome://extensions/，将下载的插件托进去安装。</p>
+<h3 id="title-7">设置代理地址</h3>
+<p>安装好插件会自动跳到设置选项，有提示你可以跳过。左边新建情景模式-选择代理服务器-比如命名为SS（叫什么无所谓）其他默认之后创建，之后在代理协议选择SOCKS5，地址为127.0.0.1,端口默认1080 。然后保存即应用选项。</p>
+<p><img class="aligncenter size-full wp-image-2653" src="./ubuntu使用shadowsocks_files/shadowsocks-0.png" alt="shadowsocks-0" width="598" height="616"></p>
+<p><img class="aligncenter size-full wp-image-2654" src="./ubuntu使用shadowsocks_files/shadowsocks-1.png" alt="shadowsocks-1" width="1160" height="534" srcset="https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-1.png 1160w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-1-620x285.png 620w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-1-768x354.png 768w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-1-940x433.png 940w" sizes="(max-width: 1160px) 100vw, 1160px"></p>
+<h3 id="title-8">设置自动切换</h3>
+<p>接着点击自动切换 (&nbsp;Auto switch）上面的不用管，在按照规则列表匹配请求后面选择刚才新建的SS，默认情景模式选择直接连接。点击应用选项保存。再往下规则列表设置选择AutoProxy 然后将<strong><a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank">这个地址</a></strong>填进去，点击下面的立即更新情景模式，会有提示更新成功！</p>
+<figure id="attachment_1606" class="wp-caption alignnone"><img class="aligncenter size-full wp-image-2655" src="./ubuntu使用shadowsocks_files/shadowsocks-2.png" alt="shadowsocks-2" width="1301" height="658" srcset="https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-2.png 1301w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-2-620x314.png 620w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-2-768x388.png 768w, https://www.sundabao.com/wp-content/uploads/2016/10/shadowsocks-2-940x475.png 940w" sizes="(max-width: 1301px) 100vw, 1301px"><figcaption class="wp-caption-text">sorry编辑图片时候少了一步，就是填好规则列表地址后先点击立即更新情景模式&nbsp;后再应用选项保存</figcaption></figure>
+<p>https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</p>
+<p>点击浏览器右上角的SwitchyOmega图标，下面选择自动切换，然后打开google.com试试，其他的就不在这贴图了。</p>
+          <nav class="pagination group">
+                      </nav><!--/.pagination-->
+        </div>
+
+        
+        <div class="clear"></div>
+      </div><!--/.entry-->
+
+    </div><!--/.post-inner-->
+  </article><!--/.post-->
+
+<div class="clear"></div>
+
+
+  <div class="author-bio">
+    <div class="bio-avatar"><img alt="JackSun" src="./ubuntu使用shadowsocks_files/JackSun_avatar_1407594676-128x128.jpg" class="avatar avatar-128 photo" height="128" width="128"></div>
+    <p class="bio-name">JackSun</p>
+    <p class="bio-desc">I'm a coder.</p>
+    <div class="clear"></div>
+  </div>
+
+
+
+
+<h4 class="heading">
+	<i class="fa fa-hand-o-right"></i>You may also like...</h4>
+
+<ul class="related-posts group">
+
+		<li class="related post-hover">
+		<article class="post-741 post type-post status-publish format-standard hentry category-1">
+
+			<div class="post-thumbnail">
+				<a href="https://www.sundabao.com/%e5%8f%b7%e5%88%b6%e5%92%8c%e7%82%b9%e5%88%b6%e4%b9%8b%e9%97%b4%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb/" title="号制和点制之间的对应关系">
+					        <svg class="hu-svg-placeholder thumb-medium-empty" id="5c64ce5b50213" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z" style="stroke-dasharray: 18959, 18961; stroke-dashoffset: 18960;"></path></svg>
+
+        <script type="text/javascript">
+          jQuery( function($){
+            if ( $('#flexslider-featured').length ) {
+              $('#flexslider-featured').on('featured-slider-ready', function() {
+                $( '#5c64ce5b50213' ).animateSvg();
+              });
+            } else { $( '#5c64ce5b50213' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+          });
+        </script>
+         <img class="hu-img-placeholder" src="./ubuntu使用shadowsocks_files/thumb-medium-empty.png" alt="号制和点制之间的对应关系" data-hu-post-id="5c64ce5b50213">																			</a>
+									<a class="post-comments" href="https://www.sundabao.com/%e5%8f%b7%e5%88%b6%e5%92%8c%e7%82%b9%e5%88%b6%e4%b9%8b%e9%97%b4%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb/#respond"><span><i class="fa fa-comments-o"></i>0</span></a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://www.sundabao.com/%e5%8f%b7%e5%88%b6%e5%92%8c%e7%82%b9%e5%88%b6%e4%b9%8b%e9%97%b4%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb/" rel="bookmark" title="号制和点制之间的对应关系">号制和点制之间的对应关系</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2014-07-02 15:28:06">2014年7月2日</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://www.sundabao.com/author/clareli1992/" title="Posts by tingting li" rel="author">tingting li</a></span>
+    </span> · Published <span class="published">2014年7月2日</span>
+     · Last modified <span class="updated">2015年12月6日</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		<li class="related post-hover">
+		<article class="post-467 post type-post status-publish format-standard hentry category-1">
+
+			<div class="post-thumbnail">
+				<a href="https://www.sundabao.com/%e9%a1%b9%e7%9b%ae%e7%bb%8f%e7%90%86%e9%9c%80%e8%a6%81%e7%9a%84%e5%8d%81%e9%a1%b9%e5%9f%ba%e6%9c%ac%e6%8a%80%e8%83%bd/" title="项目经理需要的十项基本技能">
+					        <svg class="hu-svg-placeholder thumb-medium-empty" id="5c64ce5b50aec" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z" style="stroke-dasharray: 18959, 18961; stroke-dashoffset: 18960;"></path></svg>
+
+        <script type="text/javascript">
+          jQuery( function($){
+            if ( $('#flexslider-featured').length ) {
+              $('#flexslider-featured').on('featured-slider-ready', function() {
+                $( '#5c64ce5b50aec' ).animateSvg();
+              });
+            } else { $( '#5c64ce5b50aec' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+          });
+        </script>
+         <img class="hu-img-placeholder" src="./ubuntu使用shadowsocks_files/thumb-medium-empty.png" alt="项目经理需要的十项基本技能" data-hu-post-id="5c64ce5b50aec">																			</a>
+									<a class="post-comments" href="https://www.sundabao.com/%e9%a1%b9%e7%9b%ae%e7%bb%8f%e7%90%86%e9%9c%80%e8%a6%81%e7%9a%84%e5%8d%81%e9%a1%b9%e5%9f%ba%e6%9c%ac%e6%8a%80%e8%83%bd/#respond"><span><i class="fa fa-comments-o"></i>0</span></a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://www.sundabao.com/%e9%a1%b9%e7%9b%ae%e7%bb%8f%e7%90%86%e9%9c%80%e8%a6%81%e7%9a%84%e5%8d%81%e9%a1%b9%e5%9f%ba%e6%9c%ac%e6%8a%80%e8%83%bd/" rel="bookmark" title="项目经理需要的十项基本技能">项目经理需要的十项基本技能</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2014-04-23 17:21:28">2014年4月23日</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://www.sundabao.com/author/smallearth/" title="Posts by JackSun" rel="author">JackSun</a></span>
+    </span> · Published <span class="published">2014年4月23日</span>
+     · Last modified <span class="updated">2015年12月5日</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		<li class="related post-hover">
+		<article class="post-2266 post type-post status-publish format-standard has-post-thumbnail hentry category-1">
+
+			<div class="post-thumbnail">
+				<a href="https://www.sundabao.com/%e5%90%84%e7%a7%8d%e8%af%ad%e8%a8%80%e7%9a%84%e4%bc%98%e5%8a%bf%e5%8f%8a%e9%80%82%e5%90%88%e7%9a%84%e9%a2%86%e5%9f%9f/" title="各种语言的优势及适合的领域">
+					<img width="520" height="245" src="./ubuntu使用shadowsocks_files/Languages1-520x245.png" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" srcset="https://www.sundabao.com/wp-content/uploads/2016/04/Languages1-520x245.png 520w, https://www.sundabao.com/wp-content/uploads/2016/04/Languages1-720x340.png 720w" sizes="(max-width: 520px) 100vw, 520px">																			</a>
+									<a class="post-comments" href="https://www.sundabao.com/%e5%90%84%e7%a7%8d%e8%af%ad%e8%a8%80%e7%9a%84%e4%bc%98%e5%8a%bf%e5%8f%8a%e9%80%82%e5%90%88%e7%9a%84%e9%a2%86%e5%9f%9f/#respond"><span><i class="fa fa-comments-o"></i>0</span></a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://www.sundabao.com/%e5%90%84%e7%a7%8d%e8%af%ad%e8%a8%80%e7%9a%84%e4%bc%98%e5%8a%bf%e5%8f%8a%e9%80%82%e5%90%88%e7%9a%84%e9%a2%86%e5%9f%9f/" rel="bookmark" title="各种语言的优势及适合的领域">各种语言的优势及适合的领域</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2016-04-23 23:55:14">2016年4月23日</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://www.sundabao.com/author/smallearth/" title="Posts by JackSun" rel="author">JackSun</a></span>
+    </span> · Published <span class="published">2016年4月23日</span>
+     · Last modified <span class="updated">2016年4月24日</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		
+</ul><!--/.post-related-->
+
+
+
+<section id="comments" class="themeform">
+
+	
+		<h3 class="heading">7 Responses</h3>
+
+		<ul class="comment-tabs group">
+			<li class="active"><a href="https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/#commentlist-container"><i class="fa fa-comments-o"></i>Comments<span>8</span></a></li>
+			<li><a href="https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/#pinglist-container"><i class="fa fa-share"></i>Pingbacks<span>0</span></a></li>
+		</ul>
+
+				<div id="commentlist-container" class="comment-tab">
+
+			<ol class="commentlist">
+						<li class="comment even thread-even depth-1" id="comment-6855">
+				<div id="div-comment-6855" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/113a320922040597c1a5dff9f55b5943.jpeg" srcset="https://secure.gravatar.com/avatar/113a320922040597c1a5dff9f55b5943?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Guller</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-6855">
+			2017年8月8日 at pm4:27</a>		</div>
+
+		<p>末尾还需要增加一条iptables规则才可以正常上网</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-6885">
+				<div id="div-comment-6885" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/saved_resource" srcset="https://secure.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48">			<cite class="fn">Ziv</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-6885">
+			2017年8月14日 at pm8:49</a>		</div>
+
+		<p>没有成功，启动了但还是不能科学上网，伤心</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-7001">
+				<div id="div-comment-7001" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/saved_resource" srcset="https://secure.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48">			<cite class="fn">Anonymous</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-7001">
+			2017年9月3日 at pm3:29</a>		</div>
+
+		<p>谢谢，按照你的办法安装成功了，可以上youtube和twitter，但是用不了google，能指教一下吗</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-7034">
+				<div id="div-comment-7034" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/8547f122c31eafda6c3788f1727eada7.jpeg" srcset="https://secure.gravatar.com/avatar/8547f122c31eafda6c3788f1727eada7?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">jackj</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-7034">
+			2017年9月8日 at pm9:06</a>		</div>
+
+		<p>谢谢，成功了</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-7313">
+				<div id="div-comment-7313" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/fe25979c894c4eaf36eae7890e3cad5c" srcset="https://secure.gravatar.com/avatar/fe25979c894c4eaf36eae7890e3cad5c?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Anonymous</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-7313">
+			2017年10月17日 at pm4:13</a>		</div>
+
+		<p>请问下现在这个还能用吗？我的ubuntu1604的为何不能用啊，谷歌浏览器提示说不行，代理服务器有误</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-7314">
+				<div id="div-comment-7314" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/fe25979c894c4eaf36eae7890e3cad5c" srcset="https://secure.gravatar.com/avatar/fe25979c894c4eaf36eae7890e3cad5c?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">genetic</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-7314">
+			2017年10月17日 at pm4:13</a>		</div>
+
+		<p>请问下现在这个还能用吗？我的ubuntu1604的为何不能用啊，谷歌浏览器提示说不行，代理服务器有误</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-7497">
+				<div id="div-comment-7497" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/saved_resource" srcset="https://secure.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48">			<cite class="fn">Anonymous</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-7497">
+			2017年11月8日 at pm10:29</a>		</div>
+
+		<p>不能用</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-8104">
+				<div id="div-comment-8104" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./ubuntu使用shadowsocks_files/1426571cd9a4d4819b801abee3e913c5" srcset="https://secure.gravatar.com/avatar/1426571cd9a4d4819b801abee3e913c5?s=96&amp;d=identicon&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Jacob</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.sundabao.com/ubuntu%e4%bd%bf%e7%94%a8shadowsocks/#comment-8104">
+			2018年1月19日 at am1:37</a>		</div>
+
+		<p>我是直接在终端里输入sslocal -s ip_address -p port -k “passwd” -l 1080 -t 600 -m rc4-md5，然后这个终端不能关闭，一直长开着。望给不能启动的一点提示。<br>
+以前是16.04的时候，我把这条命令写在/etc/rc.local中，这样，重启系统后会自启动。可是到了17.10，似乎是不支持rc.local自启动了，更新完系统之后，就卡在启动这条命令的阶段。今天（2018年1月18日）下午，用root通过recovery的方式，删掉了这条命令，顺利进入系统。但是现在又发现，所有流量都走SS，这个有点不好吧。正在研究怎么让sslocal在17.10下自启动。看到这篇文章，打算试试看shadowsocks-qt5，看看让流量能不能走走PAC，提高一点效率。</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+			</ol><!--/.commentlist-->
+
+			
+		</div>
+		
+		
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://www.sundabao.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245"></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="2650" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8f2dacbec6"></p><p style="display: none;"></p>			<input type="hidden" id="ak_js" name="ak_js" value="1550109625130"></form>
+			</div><!-- #respond -->
+	
+</section><!--/#comments-->          </div><!--/.pad-->
+        </section><!--/.content-->
+          
+
+        </div><!--/.main-inner-->
+      </div><!--/.main-->
+    </div><!--/.container-inner-->
+  </div><!--/.container-->
+    <footer id="footer">
+
+    
+    
+        <section class="container" id="footer-widgets">
+          <div class="container-inner">
+
+            <div class="pad group">
+
+                                <div class="footer-widget-1 grid one-fourth ">
+                    <div id="text-26" class="widget widget_text">			<div class="textwidget"><div style="background-color: #fff;padding:20px;">
+<p><strong>PHP之道</strong></p>
+    <a href="http://www.phptherightway.com/">
+        <img src="./ubuntu使用shadowsocks_files/med-rect-300x250.png" alt="PHP: The Right Way">
+    </a>
+</div>
+</div>
+		</div><div id="text-27" class="widget widget_text">			<div class="textwidget"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a11e356f3807efd178c9afdf966e9807";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+		</div>                  </div>
+                                <div class="footer-widget-2 grid one-fourth ">
+                    <div id="text-24" class="widget widget_text">			<div class="textwidget"><div style="background-color: #fff;padding:20px;">
+<p><strong>阿里云VPS推荐</strong></p>
+<a href="http://s.click.taobao.com/t?e=m%3D2%26s%3D4dsPX%2Fm1d6ccQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAvNFD8M42IuldLztEBlmupK7tR8ArcyEw2SmySIO9WwrIcfVbFHstSZmHcMJTSMAqudn1BbglxZYxUhy8exlzcpAFEHVckI7b93srg%2FL%2FeD3keUEnoKELDlWYetMiZZgV%2BSx6OrKqagyklzFeKMz7Cd4Qek9OyREefaKWlxOHSq5XF%2B87KN7TKeiZ%2BQMlGz6FQ%3D%3D"><img src="./ubuntu使用shadowsocks_files/300x250.jpg" width="300" height="250"></a>
+<p></p>
+</div>
+
+</div>
+		</div>                  </div>
+                                <div class="footer-widget-3 grid one-fourth ">
+                    <div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="background-color: #fff;padding:20px;">
+<p><strong>广告</strong></p>
+<script type="text/javascript">var jd_union_pid="1670779090";var jd_union_euid="";</script><script type="text/javascript" src="./ubuntu使用shadowsocks_files/union.js"></script><div style="position: relative; width: 200px; height: 200px;"><iframe scrolling="no" frameborder="0" width="200px" height="200px" src="./ubuntu使用shadowsocks_files/product.html"></iframe><div style="position: absolute; top: 1px; right: 0px; background: url(&quot;//img1.360buyimg.com/da/jfs/t2404/310/2196729438/1126/702d4c79/56a598b6N82664dfc.png&quot;); height: 20px; width: 20px;"></div></div>
+</div></div></div>                  </div>
+                                <div class="footer-widget-4 grid one-fourth last">
+                    <div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="background-color: #fff;padding:20px;">
+<p><strong>白酒</strong></p>
+<script type="text/javascript">var jd_union_pid="1670389123";var jd_union_euid="";</script><script type="text/javascript" src="./ubuntu使用shadowsocks_files/union.js"></script><div style="position: relative; width: 200px; height: 200px;"><iframe scrolling="no" frameborder="0" width="200px" height="200px" src="./ubuntu使用shadowsocks_files/product(1).html"></iframe><div style="position: absolute; top: 1px; right: 0px; background: url(&quot;//img1.360buyimg.com/da/jfs/t2404/310/2196729438/1126/702d4c79/56a598b6N82664dfc.png&quot;); height: 20px; width: 20px;"></div></div>
+</div></div></div>                  </div>
+              
+            </div><!--/.pad-->
+
+          </div><!--/.container-inner-->
+        </section><!--/.container-->
+
+    
+    
+    <section class="container" id="footer-bottom">
+      <div class="container-inner">
+
+        <a id="back-to-top" href="https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="pad group">
+
+          <div class="grid one-half">
+                        
+            <div id="copyright">
+                              <p>大宝日记 | 2013-2016 | 鲁ICP备13028067号-1 </p>
+                          </div><!--/#copyright-->
+
+            
+          </div>
+
+          <div class="grid one-half last">
+                                                  </div>
+
+        </div><!--/.pad-->
+
+      </div><!--/.container-inner-->
+    </section><!--/.container-->
+
+  </footer><!--/#footer-->
+
+</div><!--/#wrapper-->
+
+<div id="su-footer-links" style="text-align: center;"></div><script type="text/javascript" src="./ubuntu使用shadowsocks_files/shCore.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushAS3.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushBash.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushColdFusion.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushClojure.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushCpp.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushCss.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushDelphi.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushDiff.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushErlang.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushFSharp.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushGroovy.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushJava.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushJavaFX.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushJScript.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushLatex.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushMatlabKey.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushObjC.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushPerl.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushPhp.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushPlain.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushPython.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushR.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushRuby.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushScala.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushSql.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushVb.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/shBrushXml.js"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://www.sundabao.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://www.sundabao.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeRDark.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['first-line'] = 4;
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['light'] = true;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['smart-tabs'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.defaults['wrap-lines'] = false;
+	SyntaxHighlighter.all();
+</script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/underscore.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"https:\/\/www.sundabao.com\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"028d74706a"},"userStarted":{"with":"with|3.2.3","on":{"date":"2017-07-07 09:14:06.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/scripts.min.js"></script>
+<script type="text/javascript" src="./ubuntu使用shadowsocks_files/wp-embed.min.js"></script>
+<script async="async" type="text/javascript" src="./ubuntu使用shadowsocks_files/form.js"></script>
+<!--[if lt IE 9]>
+<script src="https://www.sundabao.com/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
+<![endif]-->
+
+</body></html>
